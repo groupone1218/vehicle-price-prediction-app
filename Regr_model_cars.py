@@ -11,7 +11,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 # Load your pre-trained model
-with open('decision_model.pkl', 'rb') as f:
+with open('linear_model.pkl', 'rb') as f:
     lm2 = pickle.load(f)
 
 # Load feature importance from an Excel file
